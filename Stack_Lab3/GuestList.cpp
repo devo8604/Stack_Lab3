@@ -1,15 +1,37 @@
+//*************************************************************************
+// TITLE: 			   	   STL Stack Lab
+// FILENAME:               GuestList.cpp
+// PREPARED FOR:           CS230
+// PROGRAMMER(S):          Devon J. Smith
+// DEVELOPMENT DATE:       07/21/14
+// COMPILER USED:          Apple LLVM Version 5.1
+// TARGET PLATFORM:        Mac OS X i386 & x86_64
+//=================================================================
+//                           PROJECT FILES
+//    <LIST ALL PROGRAM AND HEADER FILES IN THE PROJECT HERE>
+//		lab3.cpp (main)
+//		SeatingList.h
+//		SeatingList.cpp
+//		GuestList.h
+//		GuestList.cpp
+//=================================================================
+//   		REVISION HISTORY
+//   List revisions made to the Program
 //
-//  GuestList.cpp
-//  Stack_Lab3
+//   DATE     PROGRAMMER            DESCRIPTION OF CHANGES MADE
+//	 07/21/14 Devon J. Smith        Original
 //
-//  Created by Devon Smith on 7/21/14.
-//  Copyright (c) 2014 Devon Smith. All rights reserved.
+//*******************************************************************************
+//                               CONSTANTS
 //
-
+//*******************************************************************************
+//                  STANDARD AND USER DEFINED INCLUDES
 #include "GuestList.h"
 
 using namespace std;
-
+//*******************************************************************************
+//             Definition of member functions for class Entry
+//*******************************************************************************
 string name;
 string sex;
 int salesAmount;
